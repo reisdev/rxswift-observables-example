@@ -1,12 +1,12 @@
 //
 //  challenge_reactivity_iosTests.swift
-//  challenge-reactivity-iosTests
+//  rxswift-observables-exampleTests
 //
 //  Created by Matheus dos Reis de Jesus on 01/03/23.
 //
 
 import XCTest
-@testable import challenge_reactivity_ios
+@testable import rxswift_observables_example
 
 final class challenge_reactivity_iosTests: XCTestCase {
 

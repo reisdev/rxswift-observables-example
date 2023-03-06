@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  challenge-reactivity-ios
+//  rxswift-observables-example
 //
 //  Created by Matheus dos Reis de Jesus on 01/03/23.
 //

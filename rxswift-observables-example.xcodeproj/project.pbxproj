@@ -13,9 +13,10 @@
 		CEBC6EA429AFF79600310CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBC6EA229AFF79600310CDF /* Main.storyboard */; };
 		CEBC6EA629AFF79A00310CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBC6EA529AFF79A00310CDF /* Assets.xcassets */; };
 		CEBC6EA929AFF79A00310CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBC6EA729AFF79A00310CDF /* LaunchScreen.storyboard */; };
-		CEBC6EB429AFF79A00310CDF /* challenge_reactivity_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC6EB329AFF79A00310CDF /* challenge_reactivity_iosTests.swift */; };
-		CEBC6EBE29AFF79A00310CDF /* challenge_reactivity_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC6EBD29AFF79A00310CDF /* challenge_reactivity_iosUITests.swift */; };
-		CEBC6EC029AFF79A00310CDF /* challenge_reactivity_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC6EBF29AFF79A00310CDF /* challenge_reactivity_iosUITestsLaunchTests.swift */; };
+		CEBC6EB429AFF79A00310CDF /* rxswift_observables_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC6EB329AFF79A00310CDF /* rxswift_observables_exampleTests.swift */; };
+		CEBC6ECE29AFF83400310CDF /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CEBC6ECD29AFF83400310CDF /* RxCocoa */; };
+		CEBC6ED029AFF83400310CDF /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = CEBC6ECF29AFF83400310CDF /* RxRelay */; };
+		CEBC6ED229AFF83400310CDF /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CEBC6ED129AFF83400310CDF /* RxSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,17 +27,10 @@
 			remoteGlobalIDString = CEBC6E9829AFF79600310CDF;
 			remoteInfo = "challenge-reactivity-ios";
 		};
-		CEBC6EBA29AFF79A00310CDF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CEBC6E9129AFF79600310CDF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CEBC6E9829AFF79600310CDF;
-			remoteInfo = "challenge-reactivity-ios";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEBC6E9929AFF79600310CDF /* challenge-reactivity-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "challenge-reactivity-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBC6E9929AFF79600310CDF /* rxswift-observables-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rxswift-observables-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBC6E9C29AFF79600310CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEBC6E9E29AFF79600310CDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CEBC6EA029AFF79600310CDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,11 +38,8 @@
 		CEBC6EA529AFF79A00310CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEBC6EA829AFF79A00310CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEBC6EAA29AFF79A00310CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEBC6EAF29AFF79A00310CDF /* challenge-reactivity-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenge-reactivity-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBC6EB329AFF79A00310CDF /* challenge_reactivity_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenge_reactivity_iosTests.swift; sourceTree = "<group>"; };
-		CEBC6EB929AFF79A00310CDF /* challenge-reactivity-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "challenge-reactivity-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEBC6EBD29AFF79A00310CDF /* challenge_reactivity_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenge_reactivity_iosUITests.swift; sourceTree = "<group>"; };
-		CEBC6EBF29AFF79A00310CDF /* challenge_reactivity_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = challenge_reactivity_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEBC6EAF29AFF79A00310CDF /* rxswift-observables-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rxswift-observables-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBC6EB329AFF79A00310CDF /* rxswift_observables_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rxswift_observables_exampleTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,17 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEBC6ED229AFF83400310CDF /* RxSwift in Frameworks */,
+				CEBC6ED029AFF83400310CDF /* RxRelay in Frameworks */,
+				CEBC6ECE29AFF83400310CDF /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEBC6EAC29AFF79A00310CDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEBC6EB629AFF79A00310CDF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -79,9 +66,8 @@
 		CEBC6E9029AFF79600310CDF = {
 			isa = PBXGroup;
 			children = (
-				CEBC6E9B29AFF79600310CDF /* challenge-reactivity-ios */,
-				CEBC6EB229AFF79A00310CDF /* challenge-reactivity-iosTests */,
-				CEBC6EBC29AFF79A00310CDF /* challenge-reactivity-iosUITests */,
+				CEBC6E9B29AFF79600310CDF /* rxswift-observables-example */,
+				CEBC6EB229AFF79A00310CDF /* rxswift-observables-example-iosTests */,
 				CEBC6E9A29AFF79600310CDF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,14 +75,13 @@
 		CEBC6E9A29AFF79600310CDF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEBC6E9929AFF79600310CDF /* challenge-reactivity-ios.app */,
-				CEBC6EAF29AFF79A00310CDF /* challenge-reactivity-iosTests.xctest */,
-				CEBC6EB929AFF79A00310CDF /* challenge-reactivity-iosUITests.xctest */,
+				CEBC6E9929AFF79600310CDF /* rxswift-observables-example.app */,
+				CEBC6EAF29AFF79A00310CDF /* rxswift-observables-exampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CEBC6E9B29AFF79600310CDF /* challenge-reactivity-ios */ = {
+		CEBC6E9B29AFF79600310CDF /* rxswift-observables-example */ = {
 			isa = PBXGroup;
 			children = (
 				CEBC6E9C29AFF79600310CDF /* AppDelegate.swift */,
@@ -107,32 +92,23 @@
 				CEBC6EA729AFF79A00310CDF /* LaunchScreen.storyboard */,
 				CEBC6EAA29AFF79A00310CDF /* Info.plist */,
 			);
-			path = "challenge-reactivity-ios";
+			path = "rxswift-observables-example";
 			sourceTree = "<group>";
 		};
-		CEBC6EB229AFF79A00310CDF /* challenge-reactivity-iosTests */ = {
+		CEBC6EB229AFF79A00310CDF /* rxswift-observables-example-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEBC6EB329AFF79A00310CDF /* challenge_reactivity_iosTests.swift */,
+				CEBC6EB329AFF79A00310CDF /* rxswift_observables_exampleTests.swift */,
 			);
-			path = "challenge-reactivity-iosTests";
-			sourceTree = "<group>";
-		};
-		CEBC6EBC29AFF79A00310CDF /* challenge-reactivity-iosUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CEBC6EBD29AFF79A00310CDF /* challenge_reactivity_iosUITests.swift */,
-				CEBC6EBF29AFF79A00310CDF /* challenge_reactivity_iosUITestsLaunchTests.swift */,
-			);
-			path = "challenge-reactivity-iosUITests";
+			path = "rxswift-observables-example-iosTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CEBC6E9829AFF79600310CDF /* challenge-reactivity-ios */ = {
+		CEBC6E9829AFF79600310CDF /* rxswift-observables-example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBC6EC329AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-ios" */;
+			buildConfigurationList = CEBC6EC329AFF79A00310CDF /* Build configuration list for PBXNativeTarget "rxswift-observables-example" */;
 			buildPhases = (
 				CEBC6E9529AFF79600310CDF /* Sources */,
 				CEBC6E9629AFF79600310CDF /* Frameworks */,
@@ -142,14 +118,19 @@
 			);
 			dependencies = (
 			);
-			name = "challenge-reactivity-ios";
+			name = "rxswift-observables-example";
+			packageProductDependencies = (
+				CEBC6ECD29AFF83400310CDF /* RxCocoa */,
+				CEBC6ECF29AFF83400310CDF /* RxRelay */,
+				CEBC6ED129AFF83400310CDF /* RxSwift */,
+			);
 			productName = "challenge-reactivity-ios";
-			productReference = CEBC6E9929AFF79600310CDF /* challenge-reactivity-ios.app */;
+			productReference = CEBC6E9929AFF79600310CDF /* rxswift-observables-example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEBC6EAE29AFF79A00310CDF /* challenge-reactivity-iosTests */ = {
+		CEBC6EAE29AFF79A00310CDF /* rxswift-observables-exampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CEBC6EC629AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-iosTests" */;
+			buildConfigurationList = CEBC6EC629AFF79A00310CDF /* Build configuration list for PBXNativeTarget "rxswift-observables-exampleTests" */;
 			buildPhases = (
 				CEBC6EAB29AFF79A00310CDF /* Sources */,
 				CEBC6EAC29AFF79A00310CDF /* Frameworks */,
@@ -160,28 +141,10 @@
 			dependencies = (
 				CEBC6EB129AFF79A00310CDF /* PBXTargetDependency */,
 			);
-			name = "challenge-reactivity-iosTests";
+			name = "rxswift-observables-exampleTests";
 			productName = "challenge-reactivity-iosTests";
-			productReference = CEBC6EAF29AFF79A00310CDF /* challenge-reactivity-iosTests.xctest */;
+			productReference = CEBC6EAF29AFF79A00310CDF /* rxswift-observables-exampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CEBC6EB829AFF79A00310CDF /* challenge-reactivity-iosUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CEBC6EC929AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-iosUITests" */;
-			buildPhases = (
-				CEBC6EB529AFF79A00310CDF /* Sources */,
-				CEBC6EB629AFF79A00310CDF /* Frameworks */,
-				CEBC6EB729AFF79A00310CDF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CEBC6EBB29AFF79A00310CDF /* PBXTargetDependency */,
-			);
-			name = "challenge-reactivity-iosUITests";
-			productName = "challenge-reactivity-iosUITests";
-			productReference = CEBC6EB929AFF79A00310CDF /* challenge-reactivity-iosUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -200,13 +163,9 @@
 						CreatedOnToolsVersion = 14.1;
 						TestTargetID = CEBC6E9829AFF79600310CDF;
 					};
-					CEBC6EB829AFF79A00310CDF = {
-						CreatedOnToolsVersion = 14.1;
-						TestTargetID = CEBC6E9829AFF79600310CDF;
-					};
 				};
 			};
-			buildConfigurationList = CEBC6E9429AFF79600310CDF /* Build configuration list for PBXProject "challenge-reactivity-ios" */;
+			buildConfigurationList = CEBC6E9429AFF79600310CDF /* Build configuration list for PBXProject "rxswift-observables-example" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,13 +174,15 @@
 				Base,
 			);
 			mainGroup = CEBC6E9029AFF79600310CDF;
+			packageReferences = (
+				CEBC6ECC29AFF83400310CDF /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = CEBC6E9A29AFF79600310CDF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CEBC6E9829AFF79600310CDF /* challenge-reactivity-ios */,
-				CEBC6EAE29AFF79A00310CDF /* challenge-reactivity-iosTests */,
-				CEBC6EB829AFF79A00310CDF /* challenge-reactivity-iosUITests */,
+				CEBC6E9829AFF79600310CDF /* rxswift-observables-example */,
+				CEBC6EAE29AFF79A00310CDF /* rxswift-observables-exampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +199,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CEBC6EAD29AFF79A00310CDF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEBC6EB729AFF79A00310CDF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,16 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEBC6EB429AFF79A00310CDF /* challenge_reactivity_iosTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CEBC6EB529AFF79A00310CDF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CEBC6EC029AFF79A00310CDF /* challenge_reactivity_iosUITestsLaunchTests.swift in Sources */,
-				CEBC6EBE29AFF79A00310CDF /* challenge_reactivity_iosUITests.swift in Sources */,
+				CEBC6EB429AFF79A00310CDF /* rxswift_observables_exampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,13 +231,8 @@
 /* Begin PBXTargetDependency section */
 		CEBC6EB129AFF79A00310CDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEBC6E9829AFF79600310CDF /* challenge-reactivity-ios */;
+			target = CEBC6E9829AFF79600310CDF /* rxswift-observables-example */;
 			targetProxy = CEBC6EB029AFF79A00310CDF /* PBXContainerItemProxy */;
-		};
-		CEBC6EBB29AFF79A00310CDF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CEBC6E9829AFF79600310CDF /* challenge-reactivity-ios */;
-			targetProxy = CEBC6EBA29AFF79A00310CDF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -439,7 +379,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VK9JADUS66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "challenge-reactivity-ios/Info.plist";
+				INFOPLIST_FILE = "rxswift-observables-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -450,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.challenge-reactivity-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.rxswift-observables-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,7 +407,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VK9JADUS66;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "challenge-reactivity-ios/Info.plist";
+				INFOPLIST_FILE = "rxswift-observables-example/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.challenge-reactivity-ios";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.rxswift-observables-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -502,7 +442,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge-reactivity-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge-reactivity-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rxswift-observables-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rxswift-observables-example";
 			};
 			name = Debug;
 		};
@@ -522,50 +462,14 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/challenge-reactivity-ios.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/challenge-reactivity-ios";
-			};
-			name = Release;
-		};
-		CEBC6ECA29AFF79A00310CDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VK9JADUS66;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.challenge-reactivity-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "challenge-reactivity-ios";
-			};
-			name = Debug;
-		};
-		CEBC6ECB29AFF79A00310CDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VK9JADUS66;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "br.com.reisdev.challenge-reactivity-iosUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "challenge-reactivity-ios";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rxswift-observables-example.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rxswift-observables-example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CEBC6E9429AFF79600310CDF /* Build configuration list for PBXProject "challenge-reactivity-ios" */ = {
+		CEBC6E9429AFF79600310CDF /* Build configuration list for PBXProject "rxswift-observables-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEBC6EC129AFF79A00310CDF /* Debug */,
@@ -574,7 +478,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBC6EC329AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-ios" */ = {
+		CEBC6EC329AFF79A00310CDF /* Build configuration list for PBXNativeTarget "rxswift-observables-example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEBC6EC429AFF79A00310CDF /* Debug */,
@@ -583,7 +487,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBC6EC629AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-iosTests" */ = {
+		CEBC6EC629AFF79A00310CDF /* Build configuration list for PBXNativeTarget "rxswift-observables-exampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CEBC6EC729AFF79A00310CDF /* Debug */,
@@ -592,16 +496,36 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CEBC6EC929AFF79A00310CDF /* Build configuration list for PBXNativeTarget "challenge-reactivity-iosUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CEBC6ECA29AFF79A00310CDF /* Debug */,
-				CEBC6ECB29AFF79A00310CDF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEBC6ECC29AFF83400310CDF /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEBC6ECD29AFF83400310CDF /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBC6ECC29AFF83400310CDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		CEBC6ECF29AFF83400310CDF /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBC6ECC29AFF83400310CDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		CEBC6ED129AFF83400310CDF /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEBC6ECC29AFF83400310CDF /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CEBC6E9129AFF79600310CDF /* Project object */;
 }
